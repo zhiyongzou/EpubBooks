@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/zhiyongzou"
   spec.source       = { :git => "https://github.com/zhiyongzou", :tag => spec.version.to_s }
   spec.ios.deployment_target = '8.0'
-  spec.resource_bundles = { 'Resources': '*.epub' }
+  spec.resource_bundles = { 'EpubBooks': '*.epub' }
 
 end
